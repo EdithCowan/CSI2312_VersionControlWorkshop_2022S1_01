@@ -14,35 +14,25 @@ namespace CSI2312_VersionControlWorkshop
     {
         static void Task01(int[] data)
         {
-            for (int i=0; i<data.Length; i++)
-            {
-                data[i] = 0;
-            }
+            // test
         }
 
         static void Task02(int[] data)
         {
-            for (int i = 0; i < data.Length; i++)
-            {
-                data[i] = 0;
-            }
+
         }
 
         static void Task03(int[] data)
         {
-            for (int i = 0; i < data.Length; i++)
-            {
-                data[i] = 0;
-            }
+
         }
 
         static void Task04(int[] data)
         {
-            for (int i = 0; i < data.Length; i++)
-            {
-                data[i] = 0;
-            }
+
         }
+
+        // add further task methods here
 
         static void Main(string[] args)
         {
@@ -65,7 +55,7 @@ namespace CSI2312_VersionControlWorkshop
                     }
                     else
                     {
-                        Console.WriteLine("]\n\n");
+                        Console.WriteLine("]");
                     }
                     
                 }
@@ -75,6 +65,13 @@ namespace CSI2312_VersionControlWorkshop
                 Console.WriteLine("(2) Randomise the digits");
                 Console.WriteLine("(3) Sort ascending");
                 Console.WriteLine("(4) Sort descending");
+                Console.WriteLine("(5) Set all to largest");
+                Console.WriteLine("(6) Set all to smallest");
+                Console.WriteLine("(7) Set all to total");
+                Console.WriteLine("(8) Set all to average");
+                Console.WriteLine("(9) Square all");
+                Console.WriteLine("(10) Add 1 to all");
+                Console.WriteLine("(11) Subtract average from all");
                 Console.WriteLine("=============================");
                 int choice;
                 choice = Convert.ToInt32(Console.ReadLine());
