@@ -14,7 +14,7 @@ namespace CSI2312_VersionControlWorkshop
     {
         static void Task01(int[] data)
         {
-            // test 3
+
         }
 
         static void Task02(int[] data)
