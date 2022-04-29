@@ -22,7 +22,13 @@ namespace CSI2312_VersionControlWorkshop
 
         static void Task02(int[] data)
         {
-            // code goes here too!
+            Random rand = new Random();
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] =rand.Next(1,100);
+            }
+
         }
 
         static void Task03(int[] data)
