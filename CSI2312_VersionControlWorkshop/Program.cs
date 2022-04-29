@@ -30,7 +30,26 @@ namespace CSI2312_VersionControlWorkshop
 
         static void Task04(int[] data)
         {
-            // Martins homework !
+            // declaring and initializing the array
+
+
+
+            // Sort array in ascending order.
+            Array.Sort(data);
+
+
+
+            // reverse array
+            Array.Reverse(data);
+
+
+
+            // print all element of array
+            foreach (int value in data)
+            {
+                Console.Write(value + " ");
+            }
+            Console.ReadKey();
         }
 
         // add further task methods here
