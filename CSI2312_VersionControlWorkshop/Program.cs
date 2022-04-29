@@ -14,7 +14,7 @@ namespace CSI2312_VersionControlWorkshop
     {
         static void Task01(int[] data)
         {
-            // Martins homework
+
         }
 
         static void Task02(int[] data)
@@ -29,7 +29,7 @@ namespace CSI2312_VersionControlWorkshop
 
         static void Task04(int[] data)
         {
-
+            // Martins homework
         }
 
         // add further task methods here
