@@ -44,12 +44,6 @@ namespace CSI2312_VersionControlWorkshop
 
 
 
-            // print all element of array
-            foreach (int value in data)
-            {
-                Console.Write(value + " ");
-            }
-            Console.ReadKey();
         }
 
         // add further task methods here
