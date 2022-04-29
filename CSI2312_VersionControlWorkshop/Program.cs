@@ -19,7 +19,7 @@ namespace CSI2312_VersionControlWorkshop
 
         static void Task02(int[] data)
         {
-
+            // code goes here too!
         }
 
         static void Task03(int[] data)
