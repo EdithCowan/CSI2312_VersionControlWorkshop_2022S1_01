@@ -60,6 +60,7 @@ namespace CSI2312_VersionControlWorkshop
         {
             // Set all values to largest value
 
+            // Sort in descending order, largest number will be the first element
             Array.Reverse(data);
 
             int largest = data[0];
@@ -67,6 +68,21 @@ namespace CSI2312_VersionControlWorkshop
             for (int i = 0; i < data.Length; i++)
             {
                 data[i] = largest;
+            }
+        }
+
+        static void Task06(int[] data)
+        {
+            // Set all values to smallest value
+
+            // Sort in ascending order, smallest number will be the first element
+            Array.Sort(data);
+
+            int smallest = data[0];
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] = smallest;
             }
         }
 
@@ -129,6 +145,9 @@ namespace CSI2312_VersionControlWorkshop
                         break;
                     case 5:
                         Task05(data);
+                        break;
+                    case 6:
+                        Task06(data);
                         break;
                     default:
                         break;
