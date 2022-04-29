@@ -14,6 +14,7 @@ namespace CSI2312_VersionControlWorkshop
     {
         static void Task01(int[] data)
         {
+            // Zero the list
             for(int i = 0; i < data.Length; i++)
             {
                 data[i] = 0;
@@ -21,14 +22,15 @@ namespace CSI2312_VersionControlWorkshop
         }
 
         static void Task02(int[] data)
-        {
+        { 
+            // Create random variable
             Random rand = new Random();
 
+            // Randomise list
             for (int i = 0; i < data.Length; i++)
             {
                 data[i] =rand.Next(1,100);
             }
-
         }
 
         static void Task03(int[] data)
