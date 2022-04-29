@@ -24,7 +24,8 @@ namespace CSI2312_VersionControlWorkshop
 
         static void Task03(int[] data)
         {
-
+            // sort array
+            Array.Sort(data);
         }
 
         static void Task04(int[] data)
