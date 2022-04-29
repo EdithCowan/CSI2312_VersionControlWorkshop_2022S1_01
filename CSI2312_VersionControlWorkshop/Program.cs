@@ -86,6 +86,25 @@ namespace CSI2312_VersionControlWorkshop
             }
         }
 
+        static void Task07(int[] data)
+        {
+            // set all to total
+
+            int total = 0;
+
+            // getting the total
+            for (int i = 0; i < data.Length; i++)
+            {
+                total += data[i];
+            }
+
+            // setting all values as the total
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] = total;
+            }
+        }
+
         // add further task methods here
 
         static void Main(string[] args)
@@ -148,6 +167,9 @@ namespace CSI2312_VersionControlWorkshop
                         break;
                     case 6:
                         Task06(data);
+                        break;
+                    case 7:
+                        Task07(data);
                         break;
                     default:
                         break;
