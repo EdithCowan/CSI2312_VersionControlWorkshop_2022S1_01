@@ -56,6 +56,19 @@ namespace CSI2312_VersionControlWorkshop
 
 
         }
+        static void Task05(int[] data)
+        {
+            // Set all values to largest value
+
+            Array.Reverse(data);
+
+            int largest = data[0];
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] = largest;
+            }
+        }
 
         // add further task methods here
 
@@ -113,6 +126,9 @@ namespace CSI2312_VersionControlWorkshop
                         break;
                     case 4:
                         Task04(data);
+                        break;
+                    case 5:
+                        Task05(data);
                         break;
                     default:
                         break;
