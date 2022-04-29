@@ -14,7 +14,10 @@ namespace CSI2312_VersionControlWorkshop
     {
         static void Task01(int[] data)
         {
-            // hello! add code here!
+            for(int i = 0; i < data.Length; i++)
+            {
+                data[i] = 0;
+            }
         }
 
         static void Task02(int[] data)
