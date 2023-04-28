@@ -36,12 +36,24 @@ namespace CSI2312_VersionControlWorkshop
         }
 
         //print something
-        static void Task12()
+        static void Task05(int[] data)
         {
-            //Print :D
-            Console.WriteLine("\n\n\n\n 2023 :D \n\n\n\n");
-        }
+            //Find highest - vouk :)
+            int largest = data[0];
+            for (int i = 0; i < data.Length; i++)
+            {
+                if (data[i] > largest)
+                {
+                    largest = data[i];
+                }
+            }
 
+            //Set All to largest - vouk 2023 :D
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] = largest;
+            }
+        }
         // add further task methods here
 
         static void Main(string[] args)
@@ -83,6 +95,7 @@ namespace CSI2312_VersionControlWorkshop
                 Console.WriteLine("(10) Add 1 to all");
                 Console.WriteLine("(11) Subtract average from all");
                 Console.WriteLine("=============================");
+                Console.WriteLine("2023 will be great :DD");
                 int choice;
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -93,8 +106,8 @@ namespace CSI2312_VersionControlWorkshop
                     case 2:
                         Task02(data);
                         break;
-                    case 12:
-                        Task12();
+                    case 5: //vouk :P
+                        Task05(data);
                         break;
                     default:
                         break;
