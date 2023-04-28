@@ -35,6 +35,13 @@ namespace CSI2312_VersionControlWorkshop
             }
         }
 
+        //print something
+        static void Task12()
+        {
+            //Print :D
+            Console.WriteLine("\n\n\n\n 2023 :D \n\n\n\n");
+        }
+
         // add further task methods here
 
         static void Main(string[] args)
@@ -85,6 +92,9 @@ namespace CSI2312_VersionControlWorkshop
                         break;
                     case 2:
                         Task02(data);
+                        break;
+                    case 12:
+                        Task12();
                         break;
                     default:
                         break;
