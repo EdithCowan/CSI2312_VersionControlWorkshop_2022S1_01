@@ -55,6 +55,23 @@ namespace CSI2312_VersionControlWorkshop
             }
         }
         // add further task methods here
+        static void Task11(int[] data)
+        {
+            // Get average of integers and subtract from each list item
+            int sum = 0;
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                sum += data[i];
+            }
+
+            int average = sum / data.Length;
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] = data[i] - average;
+            }
+        }
 
         static void Main(string[] args)
         {
@@ -108,6 +125,9 @@ namespace CSI2312_VersionControlWorkshop
                         break;
                     case 5: //vouk :P
                         Task05(data);
+                        break;
+                    case 11:
+                        Task11(data);
                         break;
                     default:
                         break;
