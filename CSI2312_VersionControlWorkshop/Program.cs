@@ -19,6 +19,7 @@ namespace CSI2312_VersionControlWorkshop
             for(int i = 0; i < data.Length; i++)
             {
                 data[i] = 0;
+                // test
             }
         }
 
