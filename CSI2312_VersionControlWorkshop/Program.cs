@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Immutable;
 // CSI2312 - Foundations of Software Engineering
 // Version control workshop
 //
@@ -32,6 +33,34 @@ namespace CSI2312_VersionControlWorkshop
             for (int i = 0; i < data.Length; i++)
             {
                 data[i] =rand.Next(1,100);
+            }
+        }
+
+        // Sort an array in ascending order
+        static void Task03(int[] data)
+        {
+            Array.Sort(data);
+        }
+
+        // Sort an array in descending order
+        static void Task04(int[] data)
+        {
+            //bubble sort for descending order
+            // loop to compare each array element
+            for (int step = 0; step < data.Length - 1; ++step)
+            {
+                // loop to compare array elements
+                for (int i = 0; i < data.Length - step - 1; ++i)
+                {
+                    // compare two adjacent elements
+                    if (data[i] < data[i + 1])
+                    {
+                        // swapping elements if elements are not in the inteded order
+                        int temp = data[i];
+                        data[i] = data[i + 1];
+                        data[i + 1] = temp;
+                    }
+                }
             }
         }
 
@@ -122,6 +151,12 @@ namespace CSI2312_VersionControlWorkshop
                         break;
                     case 2:
                         Task02(data);
+                        break;
+                    case 3:
+                        Task03(data);
+                        break;
+                    case 4:
+                        Task04(data);
                         break;
                     case 5: //vouk :P
                         Task05(data);
