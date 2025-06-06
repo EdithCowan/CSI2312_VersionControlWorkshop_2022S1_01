@@ -9,6 +9,7 @@ using System.Collections.Immutable;
 //
 // Edith Cowan University, 2022 - Martin Masek
 // updated for 2023, S1 - Martin Masek
+// updated for 2026, S1 - Martin Masek
 
 namespace CSI2312_VersionControlWorkshop
 {
@@ -141,7 +142,6 @@ namespace CSI2312_VersionControlWorkshop
                 Console.WriteLine("(10) Add 1 to all");
                 Console.WriteLine("(11) Subtract average from all");
                 Console.WriteLine("=============================");
-                Console.WriteLine("2023 will be great :DD");
                 int choice;
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
